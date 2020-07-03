@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title></title>
+  
+  <subtitle>楠枫(〃&#39;▽&#39;〃)博客</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://codelnn.gitee.io/blogs/"/>
+  <updated>2020-07-03T03:45:16.623Z</updated>
+  <id>http://codelnn.gitee.io/blogs/</id>
+  
+  <author>
+    <name>Codelnn</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>annotation</title>
+    <link href="http://codelnn.gitee.io/blogs/2020/07/02/annotation/"/>
+    <id>http://codelnn.gitee.io/blogs/2020/07/02/annotation/</id>
+    <published>2020-07-02T07:59:34.000Z</published>
+    <updated>2020-07-03T03:45:16.623Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Java注解（Annotation）&quot;&gt;&lt;a href=&quot;#Java注解（Annotation）&quot; class=&quot;headerlink&quot; title=&quot;Java注解（Annotation）&quot;&gt;&lt;/a&gt;Java注解（Annotation）&lt;/h1&gt;&lt;h2
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Java" scheme="http://codelnn.gitee.io/blogs/categories/Java/"/>
+    
+    
+      <category term="注解" scheme="http://codelnn.gitee.io/blogs/tags/%E6%B3%A8%E8%A7%A3/"/>
+    
+  </entry>
+  
+</feed>
