@@ -379,6 +379,24 @@
                     </span>
                 </a>
                 
+                
+                <a href="/tags/nginx/" title="nginx: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="nginx" style="background-color: #D5F5E3;">nginx
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/" title="服务器: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="服务器" style="background-color: #E8F8F5;">服务器
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
             </div>
         </div>
     </div>
@@ -403,7 +421,7 @@
 <script type="text/javascript">
     
 
-    $('#tag-wordcloud').jQCloud([{"text":"aop切面","weight":1,"link":"/tags/aop切面/"},{"text":"注解","weight":1,"link":"/tags/注解/"}], {
+    $('#tag-wordcloud').jQCloud([{"text":"aop切面","weight":1,"link":"/tags/aop切面/"},{"text":"注解","weight":1,"link":"/tags/注解/"},{"text":"nginx","weight":1,"link":"/tags/nginx/"},{"text":"服务器","weight":1,"link":"/tags/服务器/"}], {
         autoResize: true
     });
 </script>
@@ -435,6 +453,24 @@
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
                             data-tagname="注解" style="background-color: #F5EEF8;">注解
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/nginx/" title="nginx: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="nginx" style="background-color: #D5F5E3;">nginx
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/" title="服务器: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="服务器" style="background-color: #E8F8F5;">服务器
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -479,7 +515,7 @@
                     color: '#3C4858'
                 }
             },
-            indicator: [{"name":"springboot","max":2},{"name":"Java语言基础","max":2}],
+            indicator: [{"name":"springboot","max":2},{"name":"Java语言基础","max":2},{"name":"服务器","max":2}],
             nameGap: 5,
             center: ['50%','55%'],
             radius: '66%'
@@ -490,7 +526,7 @@
             itemStyle: {normal: {areaStyle: {type: 'default'}}},
             data : [
                 {
-                    value : [1,1],
+                    value : [1,1,1],
                     name : '文章分类数量'
                 }
             ]
@@ -562,7 +598,7 @@
                 name: '文章篇数',
                 type: 'line',
                 color: ['#6772e5'],
-                data: [0,0,0,0,0,0,0,0,0,0,0,0,2],
+                data: [0,0,0,0,0,0,0,0,0,0,0,0,3],
                 markPoint: {
                     symbolSize: 45,
                     color: ['#fa755a','#3ecf8e','#82d3f4'],
@@ -604,7 +640,7 @@
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [{"name":"springboot","value":1},{"name":"Java语言基础","value":1}],
+                data: [{"name":"springboot","value":1},{"name":"Java语言基础","value":1},{"name":"服务器","value":1}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
@@ -628,7 +664,7 @@
         xAxis: [
             {
                 type: 'category',
-                data: ["aop切面","注解"]
+                data: ["aop切面","注解","nginx","服务器"]
             }
         ],
         yAxis: [
@@ -641,7 +677,7 @@
                 type: 'bar',
                 color: ['#82d3f4'],
                 barWidth : 18,
-                data: [1,1],
+                data: [1,1,1,1],
                 markPoint: {
                     symbolSize: 45,
                     data: [{
@@ -739,7 +775,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">3.6k</span>&nbsp;字
+                class="white-color">8.4k</span>&nbsp;字
             
             
             
